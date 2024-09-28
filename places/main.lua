@@ -65,7 +65,7 @@ local EntityTable = {
         ["JeffTheKiller"] = "Jeff The Killer"
     },
     ["NotifyMessage"] = {
-        ["GloombatSwarm"] = "Gloombats in next room!"
+        ["GloombatSwarm"] = "Gloombats will spawn in next room!"
     },
     ["NoCheck"] = {
         "Eyes",
@@ -273,7 +273,7 @@ local Toggles = getgenv().Linoria.Toggles
 local ESPLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/deividcomsono/MS-ESP/refs/heads/main/source.lua"))()
 
 local Window = Library:CreateWindow({
-	Title = "Vitaly's Chair",
+	Title = "[BETA v1] Vitaly's Chair",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,
@@ -4975,6 +4975,7 @@ CreditsGroup:AddLabel("upio - script dev")
 CreditsGroup:AddDivider()
 CreditsGroup:AddLabel("Script Contributors:")
 CreditsGroup:AddLabel("mstudio45 - fake revive & firepp")
+CreditsGroup:AddLabel("Vitaly - Forked Version!")
 
 Library.ToggleKeybind = Options.MenuKeybind
 
